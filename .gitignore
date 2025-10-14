@@ -1,0 +1,21 @@
+# 🚫 Carpetas de build y dependencias
+/target/
+build/
+
+# 🚫 Archivos de IDE
+.vscode/
+.idea/
+
+# 🚫 Archivos del sistema
+.DS_Store
+
+# 🚫 Configuración sensible
+application.properties
+application.yml
+
+# 🚫 Archivos de log
+*.log
+
+# 🚫 Archivos temporales
+*.tmp
+*.swp
