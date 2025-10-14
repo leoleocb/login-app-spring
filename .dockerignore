@@ -1,22 +1,23 @@
+# flyctl launch added from .gitignore
 # 🚫 Carpetas de build y dependencias
-/target/
-build/
+target
+**/build
 
 # 🚫 Archivos de IDE
-.vscode/
-.idea/
+**/.vscode
+**/.idea
 
 # 🚫 Archivos del sistema
-.DS_Store
+**/.DS_Store
 
 # 🚫 Configuración sensible
-application.properties
-application.yml
+**/application.properties
+**/application.yml
 
 # 🚫 Archivos de log
-*.log
+**/*.log
 
 # 🚫 Archivos temporales
-*.tmp
-*.swp
-.env
+**/*.tmp
+**/*.swp
+fly.toml
